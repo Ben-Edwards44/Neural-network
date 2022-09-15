@@ -54,7 +54,7 @@ def load_network(filename):
 def pass_to_network():
     pixel_values = get_pixels()
     inputs = pixel_values
-    network = load_network("rotated: 0.9,100,(784,100,100,10).pickle")
+    network = load_network("network.pickle")
     
     display_results(network.calculate_output(inputs))
 
