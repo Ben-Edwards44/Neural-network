@@ -1,3 +1,6 @@
+#Author: Ben-Edwards44
+
+
 import math
 from random import uniform
 
